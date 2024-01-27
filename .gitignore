@@ -1,1 +1,7 @@
 *.log
+Library
+Temp
+Logs
+MemoryCaptures
+obj
+UserSettings
