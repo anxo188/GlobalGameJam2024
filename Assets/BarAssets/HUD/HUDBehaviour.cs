@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HUDBehaviour : MonoBehaviour
@@ -85,6 +86,8 @@ public class HUDBehaviour : MonoBehaviour
             //VAS LIADO
             Debug.Log("Quien es Juan?");
         }
+        PlayerPrefs.SetInt("drinkedBeersCount",drinkedBeersCount);
+        SceneManager.LoadScene("Assets/Scenes/CarScene.unity");
             
     }
 }

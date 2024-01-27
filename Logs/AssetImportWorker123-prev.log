@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker123
 -projectPath
-C:/Users/user/Documents/Trabajo/Unity/GGJ2024
+C:/Users/user/Documents/Trabajo/Unity/GGJ2024/GlobalGameJam2024
 -logFile
 Logs/AssetImportWorker123.log
 -srvPort
-61458
-Successfully changed project path to: C:/Users/user/Documents/Trabajo/Unity/GGJ2024
-C:/Users/user/Documents/Trabajo/Unity/GGJ2024
+52525
+Successfully changed project path to: C:/Users/user/Documents/Trabajo/Unity/GGJ2024/GlobalGameJam2024
+C:/Users/user/Documents/Trabajo/Unity/GGJ2024/GlobalGameJam2024
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,15 +49,144 @@ C:/Users/user/Documents/Trabajo/Unity/GGJ2024
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19032] Host "[IP] 192.168.123.105 [Port] 0 [Flags] 2 [Guid] 1403126628 [EditorId] 1403126628 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12016] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 3608082737 [EditorId] 3608082737 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19032] Host "[IP] 192.168.123.105 [Port] 0 [Flags] 2 [Guid] 1403126628 [EditorId] 1403126628 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12016] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 3608082737 [EditorId] 3608082737 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+     36812 9b1c -
+     36812 8f5c -
+     23896 34bc -
+     14600 2214 -
+     17984 29e8 -
+     34940 932c -
+     16940 26fc -
+     18260 1c98 -
+     36812 83c0 -
+     15920 7218 -
+      3296 6618 -
+     28928 86c0 -
+      8816 6afc -
+      7668 993c -
+     33820 6164 -
+     24036 5928 -
+     15284 b60 -
+      9948 6790 -
+     34032 80c0 -
+     13196 1344 -
+     19916 285c -
+      7780 8924 -
+      2884 57e4 -
+     25836 5bd8 -
+     28764 64dc -
+     14820 8bec -
+     25116 45f4 -
+     27368 11c8 -
+     32116 1f84 -
+     20924 104c -
+     26180 3bdc -
+     13528 6d44 -
+     31740 72e8 -
+     30700 38d8 -
+     23528 410c -
+     13716 2424 -
+      8660 17e4 -
+     19688 66f0 -
+      2992 1c8 -
+     32596 33a8 -
+      9400 5748 -
+      9416 8d90 -
+     22016 337c -
+     21948 58e0 -
+     39196 2480 -
+     16340 5e20 -
+     27024 93d4 -
+      7940 52f0 -
+     34612 2ae4 -
+     24100 81fc -
+     39260 6eec -
+     17788 97f8 -
+      5576 99c -
+     29364 94b4 -
+      7092 5eec -
+      4960 20fc -
+     15932 2c90 -
+     31176 1330 -
+     10164 1904 -
+      5684 9744 -
+     19324 870 -
+     30280 7f04 -
+     27992 3360 -
+      5924 8448 -
+      2192 57c4 -
+      5348 9028 -
+     20804 7dd8 -
+     39744 3860 -
+     18228 4c64 -
+     37992 8048 -
+     18744 85d4 -
+     25472 418c -
+     19036 3660 -
+      2336 da4 -
+     27116 2d28 -
+     16692 9614 -
+     17956 8238 -
+     33348 25a4 -
+     21972 41c -
+     11760 54b0 -
+      1952 5258 -
+     15736 1d70 -
+     27240 6170 -
+     20736 7148 -
+     36108 4810 -
+     29076 2ba4 -
+      3004 6f8c -
+     16416 ae8 -
+     11800 9be4 -
+     32316 760 -
+      2204 5d88 -
+     29892 430c -
+     18488 3c50 -
+     31720 3c78 -
+      2712 4288 -
+     11336 2ed0 -
+     39656 71b8 -
+      7484 8078 -
+     34960 2a2c -
+     37556 63f8 -
+      3340 7de0 -
+     10560 99ec -
+     32600 6190 -
+      9244 4a3c -
+      3860 5f9c -
+      4496 73d4 -
+     17012 8d3c -
+     26708 4324 -
+      8484 37ac -
+     31068 9a18 -
+     22736 2c50 -
+     35884 64a8 -
+     32920 2c2c -
+     21844 579c -
+     26380 35f8 -
+     17740 2238 -
+     10772 7020 -
+     33416 4ee0 -
+     32048 292c -
+     29376 45e0 -
+     34248 4948 -
+      9740 1678 -
+      3784 6080 -
+     10584 2a30 -
+     11132 2948 -
+     31588 67e4 -
+Cleaned out 122 stale readers
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Documents/Trabajo/Unity/GGJ2024/Assets
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/Trabajo/Unity/GGJ2024/GlobalGameJam2024/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,4 +198,4 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,address=127.0.0.1:61440,server=n,suspend=y
+Using monoOptions --debugger-agent=transport=dt_socket,address=127.0.0.1:52514,server=n,suspend=y

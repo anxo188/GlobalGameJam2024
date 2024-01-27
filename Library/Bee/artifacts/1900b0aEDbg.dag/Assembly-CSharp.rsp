@@ -357,8 +357,16 @@
 "Assets/BarAssets/DrinkTrigger.cs"
 "Assets/BarAssets/HUD/HUDBehaviour.cs"
 "Assets/BarAssets/Player/PlayerController.cs"
+"Assets/CarAssets/Car/CarController.cs"
+"Assets/CarAssets/EventManager/Event.cs"
+"Assets/CarAssets/EventManager/EventManager.cs"
+"Assets/CarAssets/EventManager/Pursuit Event/PoliceEvent/PoliceCarBehaviour.cs"
+"Assets/CarAssets/EventManager/RockEvent/RockEvent.cs"
+"Assets/CarAssets/EventManager/RockEvent/RockMovement.cs"
 "Assets/CarAssets/Street/StreetMovement.cs"
-"Assets/CarAssets/TreeSpawnSystem/NewBehaviourScript.cs"
+"Assets/CarAssets/TreeSpawnSystem/Arbol/TreeMovement.cs"
+"Assets/CarAssets/TreeSpawnSystem/TreeDespawner.cs"
+"Assets/CarAssets/TreeSpawnSystem/TreeSpawnerSystem.cs"
 "Assets/StartMenu/StartButtonScript.cs"
 -langversion:9.0
 

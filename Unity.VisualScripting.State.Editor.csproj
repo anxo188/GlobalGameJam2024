@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ca7fdc38-d798-8f85-6abd-627bf67d781a}</ProjectGuid>
+    <ProjectGuid>{52bc2ff8-06ed-957b-06df-7426ae62b60f}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -387,34 +387,34 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -794,39 +794,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{4a037a2d-0829-7933-f6f5-b2ef702bd20b}</Project>
+      <Project>{f1e2ead3-48d6-964f-8d29-3a53d274c9a4}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{1c7989d3-5c65-5ea5-f9db-2df9c389f29d}</Project>
+      <Project>{e006a528-a28f-2d77-5e99-b0f1987511e7}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{21157e59-fd3e-23aa-c7c3-5cce4b43a4de}</Project>
+      <Project>{4973fe57-efc5-023e-e915-0cc7fdb98891}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{75c00d8e-a6b7-5093-9775-e73d6ed2ee22}</Project>
+      <Project>{420420c1-7acd-a0a6-43a4-0c5e12ac1e07}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{dbafb53f-6ff9-b1d2-3060-324d97caa932}</Project>
+      <Project>{e3e9e0b9-c037-a8ce-c161-b203eba7d4a9}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{d479f051-b5ae-69a7-0b2c-ec4b8c204a83}</Project>
+      <Project>{f9d6649a-18ff-ea5c-5027-1189716b3bcd}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{dd858323-077a-d3e3-5c64-7ec391e8d385}</Project>
+      <Project>{f3f6f148-847f-dcfa-c520-f4a31470fbf2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{7faa957c-c46f-8cca-1e72-78a0c6a735cf}</Project>
+      <Project>{711c47d4-80e6-da4c-cad8-71fa2b1ab3b6}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{64801a7a-a0c5-0343-6a69-f0a438ef2544}</Project>
+      <Project>{49b1f320-5e7f-1097-a6a2-9cd66a26a3a3}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

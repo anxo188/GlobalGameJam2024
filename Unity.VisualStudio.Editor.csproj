@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{abe9cb52-ef80-262b-d762-389d3699d611}</ProjectGuid>
+    <ProjectGuid>{90bded5c-2421-b183-ad02-78baf145c229}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -356,7 +356,7 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>C:\Users\user\Documents\Trabajo\Unity\GGJ2024\GlobalGameJam2024\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -736,19 +736,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{d479f051-b5ae-69a7-0b2c-ec4b8c204a83}</Project>
+      <Project>{f9d6649a-18ff-ea5c-5027-1189716b3bcd}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{dd858323-077a-d3e3-5c64-7ec391e8d385}</Project>
+      <Project>{f3f6f148-847f-dcfa-c520-f4a31470fbf2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{7faa957c-c46f-8cca-1e72-78a0c6a735cf}</Project>
+      <Project>{711c47d4-80e6-da4c-cad8-71fa2b1ab3b6}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{64801a7a-a0c5-0343-6a69-f0a438ef2544}</Project>
+      <Project>{49b1f320-5e7f-1097-a6a2-9cd66a26a3a3}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
