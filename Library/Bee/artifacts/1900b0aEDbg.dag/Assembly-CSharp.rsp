@@ -363,6 +363,7 @@
 "Assets/CarAssets/EventManager/Pursuit Event/DinoEvent/DinoBehaviour.cs"
 "Assets/CarAssets/EventManager/Pursuit Event/PoliceEvent/PoliceCarBehaviour.cs"
 "Assets/CarAssets/EventManager/Pursuit Event/PursuitEvent.cs"
+"Assets/CarAssets/EventManager/ReverseButtonsEvent/ReverseButtons.cs"
 "Assets/CarAssets/EventManager/RockEvent/RockEvent.cs"
 "Assets/CarAssets/EventManager/RockEvent/RockMovement.cs"
 "Assets/CarAssets/Street/StreetMovement.cs"
@@ -370,6 +371,7 @@
 "Assets/CarAssets/TreeSpawnSystem/TreeDespawner.cs"
 "Assets/CarAssets/TreeSpawnSystem/TreeSpawnerSystem.cs"
 "Assets/HouseAssets/Manager/Manager.cs"
+"Assets/LoseAssets/ChangeScene.cs"
 "Assets/StartMenu/StartButtonScript.cs"
 -langversion:9.0
 

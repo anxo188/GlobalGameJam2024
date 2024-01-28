@@ -10,5 +10,10 @@ public class StartButtonScript : MonoBehaviour
    {
       SceneManager.LoadScene("Assets/Scenes/BarScene.unity");
    }
+
+   public void exit()
+   {
+      Application.Quit();
+   }
     
 }

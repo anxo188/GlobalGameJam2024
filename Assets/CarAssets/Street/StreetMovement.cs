@@ -7,7 +7,7 @@ public class StreetMovement : MonoBehaviour
 {
     public Material street;
    
-    private float speed = 1;
+    public float speed = 0.3f;
     // Start is called before the first frame update
     void Start()
     {

@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public HUDBehaviour hud;
     public GameObject codo;
     public GameObject holdBeer;
-    
+    public AudioSource audio;
     private DrinkTrigger drinkTrigger;
     private bool canDrink = true;
     
@@ -44,24 +44,13 @@ public class PlayerController : MonoBehaviour
         Vector3 finalRotation = new Vector3(-60 ,codo.transform.localRotation.y,codo.transform.localRotation.z);
 
         
-       /* for (int i = 0; i < animationDuration; i++)
-        {
-            if (i < (animationDuration / 2))
-            {
-                codo.transform.localRotation = Quaternion.Euler(Vector3.Lerp(initialRotation, finalRotation, i*2/100));
-            }
-            else
-            {
-                codo.transform.localRotation = Quaternion.Euler(Vector3.Lerp(finalRotation,initialRotation, i));
-            }
-
-            yield return new WaitForSeconds(0.001f);
-        }*/
        holdBeer.SetActive(true);
        codo.transform.localRotation = Quaternion.Euler(finalRotation);
-       yield return new WaitForSeconds(0.5f);
+       audio.Play();
+       yield return new WaitForSeconds(0.2f);
        codo.transform.localRotation = Quaternion.Euler(initialRotation);
        holdBeer.SetActive(false);
+       
        
         canDrink = true;
         yield return null;

@@ -10,47 +10,30 @@ using UnityEngine.UI;
 public class EventManager : MonoBehaviour
 {
     public Event[] eventPool;
-    private List<Event> onCooldownEvent = new List<Event>();
-    private int maxEventActiveSimultanealy = 1;
-    private int eventActives = 0;
-    private bool canSpawnEvent = true;
-    public bool generatorActive = true;
     public TextMeshProUGUI time;
 
-    private int hour = 3;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(spawnNewEvent());
         StartCoroutine(timer(endPhase));
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     IEnumerator spawnNewEvent()
     {
+        yield return new WaitForSeconds(3);
         Event toSpawn;
-        bool validEvent;
-        for (int i = 1; i <= 9 ; i++)
+        while(true)
         {
-                toSpawn = eventPool[UnityEngine.Random.Range(0, eventPool.Length)];
-                toSpawn.startEvent();
-                
+            toSpawn = eventPool[UnityEngine.Random.Range(0, eventPool.Length)];
+            toSpawn.startEvent();
             yield return new WaitForSeconds(5);
-            i++;
-            time.text = i + ":00";
             
         }
-        yield return null;
     }
 
     public IEnumerator timer(Action callback)
     {
-        int maxTime = 45;
+        int maxTime = 60;
         for (int i = maxTime; i >= 0; i--)
         {
             yield return new WaitForSeconds(1);

@@ -15,7 +15,20 @@ public class PursuitEvent : Event
     public override void startEvent()
     {
         int drinkedBeersCount = PlayerPrefs.GetInt("drinkedBeersCount");
-        if (drinkedBeersCount >= 0 && drinkedBeersCount < 25)
+        if (Random.Range(0, 2) == 0 && drinkedBeersCount >= 20)
+        {
+            //DINOTIME
+            if (Random.Range(0, 2) == 0)
+            {
+
+                GameObject.Instantiate(dinoPrefab, leftRoad, transform.rotation);
+            }else{
+                
+                GameObject.Instantiate(dinoPrefab, rightRoad, transform.rotation);
+            }
+            
+        }
+        else
         {
             //POLI VA
 
@@ -28,18 +41,6 @@ public class PursuitEvent : Event
             {
 
                 GameObject.Instantiate(poliPrefab, rightRoad, transform.rotation);
-            }
-        }
-        else
-        {
-            //DINOTIME
-            if (Random.Range(0, 2) == 0)
-            {
-
-                GameObject.Instantiate(dinoPrefab, leftRoad, transform.rotation);
-            }else{
-                
-                GameObject.Instantiate(dinoPrefab, rightRoad, transform.rotation);
             }
         }
     } 

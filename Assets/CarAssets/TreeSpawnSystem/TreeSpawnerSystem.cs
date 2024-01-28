@@ -25,7 +25,5 @@ public class NewBehaviourScript : MonoBehaviour
             GameObject.Instantiate(treeGroupPool[Random.Range(0,treeGroupPool.Length-1)], this.transform.position, this.transform.rotation);
             yield return new WaitForSeconds(Random.Range(0.75f,2));
         }
-
-        yield return null;
     }
 }
