@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,7 +18,7 @@ public class PoliceCarBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * (0.9f * Time.deltaTime);
+        transform.position += transform.forward * (15f * Time.deltaTime);
     }
 
     private IEnumerator switchLight()
@@ -37,7 +38,12 @@ public class PoliceCarBehaviour : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
     }
-    
-    
-    
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("Has perdido");
+        }
+    }
 }

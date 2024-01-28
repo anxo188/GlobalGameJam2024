@@ -13,6 +13,6 @@ public class RockMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position = this.transform.forward * (Time.deltaTime * 0.2f);
+        this.transform.position += this.transform.forward * (Time.deltaTime * 15f * -1);
     }
 }

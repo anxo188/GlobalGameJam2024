@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarController : MonoBehaviour
 {
@@ -29,5 +31,10 @@ public class CarController : MonoBehaviour
     {
         
         this.transform.position = leftPosition;
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        SceneManager.LoadScene("Assets/Scenes/WinScene.unity");
     }
 }
